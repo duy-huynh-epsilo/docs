@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Getting started",
+            "expanded": true,
             "pages": [
               "index",
               "quickstart",
@@ -23,6 +24,7 @@
           },
           {
             "group": "Customization",
+            "expanded": false,
             "pages": [
               "essentials/settings",
               "essentials/navigation"
