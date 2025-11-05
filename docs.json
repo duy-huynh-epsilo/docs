@@ -90,19 +90,28 @@
         }
       ]
     },
-    "bottom": [
+    "anchors": [
       {
-        "group": "Community",
+        "anchor": "Documentation",
+        "icon": "book-open",
         "pages": [
-          { "label": "GitHub", "href": "https://github.com/yourorg" },
-          { "label": "Discord", "href": "https://discord.gg/yourorg" }
+          "quickstart",
+          "development",
+          "navigation"
         ]
       },
       {
-        "group": "Get Started",
+        "anchor": "API reference",
+        "icon": "square-terminal",
         "pages": [
-          { "label": "Quickstart", "href": "/quickstart" }
+          "api-reference/get",
+          "api-reference/post",
+          "api-reference/delete"
         ]
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://external-link.com/blog"
       }
     ]
   },
