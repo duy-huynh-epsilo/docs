@@ -89,7 +89,22 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "bottom": [
+      {
+        "group": "Community",
+        "pages": [
+          { "label": "GitHub", "href": "https://github.com/yourorg" },
+          { "label": "Discord", "href": "https://discord.gg/yourorg" }
+        ]
+      },
+      {
+        "group": "Get Started",
+        "pages": [
+          { "label": "Quickstart", "href": "/quickstart" }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
