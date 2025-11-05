@@ -21,7 +21,6 @@
               "development",
               {
                 "group": "Test",
-                "expanded": false,
                 "pages": [
                   "index",
                   "quickstart"
