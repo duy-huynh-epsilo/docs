@@ -19,7 +19,14 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              {
+                "group": "Test",
+                "pages": [
+                  "index",
+                  "quickstart"
+                ]
+              }
             ]
           },
           {
