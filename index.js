@@ -1,8 +1,6 @@
-setTimeout(() => {
-  var pageContextMenuElement = document.querySelector('#page-context-menu')
-  var navbarElement = document.querySelector('#navbar')
+var pageContextMenuElement = document.querySelector('#page-context-menu')
+var navbarElement = document.querySelector('#navbar')
 
-  if (pageContextMenuElement && navbarElement) {
-    navbarElement.appendChild(pageContextMenuElement);
-  }
-}, 500)
+if (pageContextMenuElement && navbarElement) {
+  navbarElement.appendChild(pageContextMenuElement);
+}
