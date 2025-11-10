@@ -3,6 +3,6 @@ setTimeout(() => {
   var navbarElement = document.querySelector('#navbar')
 
   if (pageContextMenuElement && navbarElement) {
-    navbarElement.appendChild(child);
+    navbarElement.appendChild(navbarElement);
   }
 }, 500)
