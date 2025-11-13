@@ -7,7 +7,7 @@ function attachMenuIfNeeded() {
 
   if (navbar && menu && !navbar.contains(menu)) {
     navbar.appendChild(menu);
-    pageContextMenuElement.style.display = 'flex';
+    menu.style.display = 'flex';
   }
 }
 
