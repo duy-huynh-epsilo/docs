@@ -12,10 +12,10 @@ function attachMenuIfNeeded() {
     menu.style.display = 'flex';
   }
 
-  if (navbar && darkModeSelector && !navbar.contains(darkModeSelector)) {
-    navbar.appendChild(darkModeSelector);
-    darkModeSelector.style.display = 'flex';
-  }
+  // if (navbar && darkModeSelector && !navbar.contains(darkModeSelector)) {
+  //   navbar.appendChild(darkModeSelector);
+  //   darkModeSelector.style.display = 'flex';
+  // }
 }
 
 // Observe the entire document for changes
