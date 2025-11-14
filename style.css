@@ -7,3 +7,9 @@ h1 { font-size: 20px; }
 #page-context-menu {
   display: none;
 }
+
+[aria-label="Toggle dark mode"] {
+  position: fixed;
+  top: 16px;
+  right: 288px;
+}
